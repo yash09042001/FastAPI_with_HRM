@@ -26,15 +26,3 @@ class Settings:
     DB_USER = envs.get("DB_USER")
     DB_PASSWORD = envs.get("DB_PASSWORD")
     DSN = envs.get("DSN")
-
-    ADMIN_SECRET = envs.get("ADMIN_SECRET", "foobar")
-
-    # OAUTH CLIENT SETUP
-
-    # OAUTH_CLIENT_ID = envs.get("OAUTH_CLIENT_ID")
-    # OAUTH_CLIENT_SECRET = envs.get("OAUTH_CLIENT_SECRET")
-    # OAUTH_TOKEN_URL = envs.get("OAUTH_TOKEN_URL")
-
-    # JWT SETUP
-
-    # JWT_PUBLIC_KEY = envs.get("JWT_SECRET", "foobar")
